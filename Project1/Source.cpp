@@ -14,10 +14,27 @@ using namespace std;
 //The number of millimeters higher than the current level that the ocean’s level will be in 10yr
 int main()
 {
+	//PART 1
 	double oceanRise;
 	oceanRise = 1.5;
+	cout << "***THIS IS PART 1!***" << endl;
 	cout << "At a rate of 1.5mm per year, the ocean's sea level will rise " << oceanRise * 5 << "mm in five years, " << endl;
 	cout << oceanRise * 7 << "mm in seven years, and " << endl;
-	cout << oceanRise * 10 << "mm in ten years.";
-	return 0;
+	cout << oceanRise * 10 << "mm in ten years." << endl;
+
+	//PART 2
+		double numbGal, avgMiGalTown, avgMiGalHigh;
+
+		numbGal = 20;
+		avgMiGalTown = 23.5;
+		avgMiGalHigh = 28.9;
+
+		cout << "***THIS IS PART 2!***" << endl;
+		cout << "Distance driven at 23.5mpg in the city, on one tank of gas: " << numbGal * avgMiGalTown << endl;
+		cout << "Distance driven at 28.9mpg on the highway, on one tank of gas: " << numbGal * avgMiGalHigh << endl;
+
+		//PART 3
+
+
+		return 0;
 }
